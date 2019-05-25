@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
+
+$width: 900px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  a.active {
+    background-color: #35A7FF;
+  }
+}

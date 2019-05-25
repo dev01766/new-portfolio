@@ -1,0 +1,7 @@
+<div>
+  <navbar></navbar>
+  <app-divider [parentData]="'Things I have made...'"></app-divider>
+  <div *ngFor="let path of paths; index as i">
+    <a [routerLink]=path><app-item [src]="srcs[i]" [title]="titles[i]" [description]="descriptions[i]"></app-item></a>
+  </div>
+</div>

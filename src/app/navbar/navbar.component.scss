@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #1D2D44;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 10px 30px -15px rgba(0,0,0,0.56);
+  -moz-box-shadow: 0px 10px 30px -15px rgba(0,0,0,0.56);
+  box-shadow: 0px 10px 30px -15px rgba(0,0,0,0.56);
+  width: 100vw;
+
+  a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Economica', Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    transition: 0.2s;
+    height: 25px;
+
+    &:hover {
+      background-color: #35A7FF;
+    }
+  }
+}

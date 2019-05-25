@@ -1,0 +1,51 @@
+@keyframes pointsRight {
+  0% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(+40%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.splash {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1D2D44;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Economica', Arial, Helvetica, sans-serif;
+
+  i {
+    animation: pointsRight 1s infinite;
+    margin-top: 2em;
+    font-size: 0.7em;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: #808762;
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .splash {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .splash {
+    font-size: 4em;
+  }
+}

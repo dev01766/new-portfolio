@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  background-color: #edf7ff;
+  margin: 5px;
+  max-width: 1280px;
+  transition: 0.15s;
+
+  &:hover {
+    background: #35A7FF;
+    .description {
+      color: white;
+      transition: 0.15s;
+    }
+    .tag {
+      color: #38618C;
+    }
+  }
+
+  img {
+    margin-right: 10px;
+  }
+
+  .description {
+    font-family: 'Economica', Arial, Helvetica, sans-serif;
+    color: #38618C;
+  }
+
+  .tag {
+    background-color: white;
+    margin-right: 5px;
+    padding: 2px;
+  }
+
+  .tags {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    margin: 5px auto;
+  }
+}
