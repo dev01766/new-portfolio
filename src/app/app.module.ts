@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { PortfolioModule } from './portfolio/portfolio.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
@@ -24,7 +25,8 @@ import { RomanComponent } from './roman/roman/roman.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PortfolioModule
   ],
   exports: [
     NavbarComponent,
