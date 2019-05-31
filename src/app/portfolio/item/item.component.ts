@@ -9,6 +9,7 @@ export class ItemComponent implements OnInit {
   @Input() src: string;
   @Input() title: string; 
   @Input() description: string;
+  @Input() tags: string[];
 
   constructor() { }
 

@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemsComponent implements OnInit {
   public paths: string[] = [
-    '/calculator',
-    '/roman',
-    '/wordsclock',
-    '/mengenlehreuhr',
-    '/binaryclock',
-    '/weather',
-    '/texteditor',
-    '/pomodoro'
+    'https://asilva.netlify.com/calculator.html',
+    'https://asilva.netlify.com/roman.html',
+    'https://asilva.netlify.com/wordsclock.html',
+    'https://asilva.netlify.com/mengenlehreuhr.html',
+    'https://asilva.netlify.com/binaryclock.html',
+    'https://asilva.netlify.com/weather.html',
+    'https://asilva.netlify.com/texteditor.html',
+    'https://asilva.netlify.com/pomodoro.html'
   ];
 
   public srcs: string[] = [
@@ -49,7 +49,18 @@ export class ItemsComponent implements OnInit {
     'Simple text editor using browser commands.',
     'Fully-fledged Pomodoro Timer'
   ];
-  
+
+  public tags: string[][] = [
+    ['CSS', 'JS'], 
+    ['CSS', 'jQuery'],
+    ['CSS', 'jQuery'],
+    ['CSS', 'jQuery'],
+    ['CSS', 'jQuery'],
+    ['CSS', 'jQuery', 'API'],
+    ['CSS', 'jQuery'],
+    ['CSS', 'jQuery']
+  ];
+
   constructor() { }
 
   ngOnInit() {

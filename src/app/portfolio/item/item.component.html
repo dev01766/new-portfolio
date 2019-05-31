@@ -3,9 +3,8 @@
   <div class="description">
     <h2>{{title}}</h2>
     <h3>{{description}}</h3>
-    <div class="tags">
-      <span class="tag">HTML</span>
-      <span class="tag">CSS</span>
-    </div>
+    <span class="tag" *ngFor="let tag of tags">
+      {{tag}}
+    </span>
   </div>
 </div>
